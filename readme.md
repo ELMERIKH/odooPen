@@ -52,7 +52,7 @@ You will be prompted for:
 - Target Host (IP or hostname)
 - Port (default 8069)
 - Use HTTPS? (y/N)
-- Disable SSL verification? (y/N) — only use if you understand the risks
+- Disable SSL verification? (y/N) 
 - Timeout (default 10)
 - Silent mode toggle
 
@@ -112,22 +112,4 @@ Contributions are welcome (bug fixes, new checks, better reporting, CLI flags). 
 
 If you submit code that enhances active testing capability (e.g., exploits), ensure it is clearly labeled and optional behind explicit flags and disclaimers.
 
-## Roadmap / Ideas
 
-- Add command-line flags for non-interactive use (e.g., --host, --port, --db, --timeout).
-- Add safe dry-run mode to list checks without actually calling destructive operations.
-- Integrate with known CVE feeds or security databases for automated updates.
-- Add a module-based plugin system for community contributed checks.
-
-## License
-
-Add an appropriate license file to the repository (e.g., MIT, Apache-2.0) if you plan to open source. If not present, include licensing information and usage terms in the repo.
-
----
-
-If you'd like, I can:
-- Add a requirements.txt and a basic LICENSE file
-- Convert the interactive prompts to command-line arguments (with argparse)
-- Create a lightweight Dockerfile for reproducible execution
-
-Which would you like me to add next?
